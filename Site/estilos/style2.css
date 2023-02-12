@@ -1,0 +1,32 @@
+
+.tamanho_fundo {
+  width: 2000px;
+  height: 200px;
+}
+
+.top {
+    background-color: rgb(173, 216, 230);
+  }
+
+.mid {
+    background-color: rgb(151, 151, 153);
+  }
+
+.down {
+    background-color: rgb(37, 45, 48);
+  }
+
+.tamanho_divisao {
+  width: 2000px;
+  height: 10px;
+}
+
+.divisao_top_mid {
+  background-color: rgb(255, 251, 0);
+}
+
+
+.divisao_mid_down {
+  background-color: rgb(219, 216, 4);
+}
+
