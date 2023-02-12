@@ -1,7 +1,15 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
 
 .tamanho_fundo {
-  width: 2000px;
+  width: 100vw;
   height: 200px;
+  margin: 0;
+  padding: 0;
+  display: block;
+  float: left;
 }
 
 .top {
@@ -13,12 +21,16 @@
   }
 
 .down {
-    background-color: rgb(37, 45, 48);
+    background-color: rgb(64, 79, 85);
   }
 
 .tamanho_divisao {
-  width: 2000px;
+  width: 100vw;
   height: 10px;
+  margin: 0;
+  padding: 0;
+  display: block;
+  float: left;
 }
 
 .divisao_top_mid {
@@ -30,3 +42,39 @@
   background-color: rgb(219, 216, 4);
 }
 
+.triangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 100px solid yellow;
+    border-left: 100px solid transparent;
+    transform: rotate(-90deg);
+  }
+  
+  .triangle iframe {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: calc(100% - 50px);
+    height: calc(100% - 50px);
+  }
+  
+  .triangle-text {
+    position: relative;
+    top: -148px;
+    left: -70px;
+    transform: rotate(45deg);
+    color: black;
+    font-style: italic;
+    font-size: 30px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+ .coop {
+    text-align: center;
+  }
