@@ -1,6 +1,29 @@
-.body {
+@charset "UTF-8";
+
+* {
+  height: 100%;
+}
+
+body {
   margin: 0;
   padding: 0;
+  margin: auto;
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image:linear-gradient(to right, rgb(173, 216, 230), rgb(151, 151, 153) );
+}
+
+p {
+  text-align: justify;
+  text-indent: 30px;
+}
+
+#botao_acessar {
+  text-align: center;
+}
+
+h6{
+  text-align: center;
 }
 
 .tamanho_fundo {
@@ -13,20 +36,24 @@
 }
 
 .top {
-  background-color: rgb(173, 216, 230);
+  background-image:linear-gradient(to right, rgb(173, 216, 230), rgb(151, 151, 153) );
+}
+
+.top:hover {
+  background-color: antiquewhite;
 }
 
 .mid {
-  background-color: rgb(151, 151, 153);
+  background-image:linear-gradient(to right, rgb(151, 151, 153), rgb(64, 79, 85));
 }
 
 .down {
-  background-color: rgb(64, 79, 85);
+  background-image:linear-gradient(to right, rgb(64, 79, 85), rgb(173, 216, 230));
 }
 
 .tamanho_divisao {
   width: 100vw;
-  height: 10px;
+  height: 5px;
   margin: 0;
   padding: 0;
   display: block;
@@ -34,12 +61,12 @@
 }
 
 .divisao_top_mid {
-  background-color: rgb(255, 251, 0);
+  background-image:linear-gradient( rgb(255, 251, 0), rgb(190, 188, 32));
 }
 
 
 .divisao_mid_down {
-  background-color: rgb(219, 216, 4);
+  background-image:linear-gradient( rgb(175, 173, 48), rgb(255, 251, 0));
 }
 
 .triangle {
@@ -63,12 +90,12 @@
 
 .triangle-text {
   position: relative;
-  top: -136px;
-  left: -58px;
+  top: -125px;
+  left: -43px;
   transform: rotate(45deg);
   color: black;
   font-style: italic;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h1 {
