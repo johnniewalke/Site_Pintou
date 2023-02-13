@@ -13,13 +13,18 @@ body {
   background-image:linear-gradient(to right, rgb(173, 216, 230), rgb(151, 151, 153) );
 }
 
-p {
-  text-align: justify;
-  text-indent: 30px;
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(177, 160, 12);
+  text-shadow: 2px 2px 5px rgb(255, 255, 255);
 }
 
 #botao_acessar {
-  text-align: center;
+  text-align: left;
 }
 
 h6{
@@ -37,10 +42,6 @@ h6{
 
 .top {
   background-image:linear-gradient(to right, rgb(173, 216, 230), rgb(151, 151, 153) );
-}
-
-.top:hover {
-  background-color: antiquewhite;
 }
 
 .mid {
@@ -102,6 +103,3 @@ h1 {
   text-align: center;
 }
 
-.coop {
-  text-align: center;
-}
