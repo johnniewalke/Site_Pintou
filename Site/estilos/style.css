@@ -1,12 +1,15 @@
 @charset "UTF-8";
 
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+
 body {
-  margin: 0;
-  padding: 0;
-  outline: 0;
+
   background-attachment: fixed;
   font-family: Arial, Helvetica, sans-serif;
-  background-image:linear-gradient(to right, rgb(173, 216, 230), rgb(151, 151, 153) );
 }
 
 header{
@@ -14,7 +17,10 @@ header{
 }
 
 footer {
-  background-image:linear-gradient(to bottom, rgb(151, 151, 153),rgb(173, 216, 230) );
+  background-image:linear-gradient(to bottom, rgb(42, 42, 43),rgb(65, 65, 65) );
+  color: aliceblue;
+  text-align: center;
+  font-size:10px;
 }
 
 a {
@@ -49,7 +55,7 @@ h6{
 }
 
 .top {
-  background-image:linear-gradient(to right, rgb(173, 216, 230), rgb(151, 151, 153) );
+  background-image:linear-gradient(to right, #add8e6, rgb(151, 151, 153) );
 }
 
 .mid {
@@ -70,7 +76,7 @@ h6{
 }
 
 .divisao_top_mid {
-  background-image:linear-gradient( rgb(255, 251, 0), rgb(190, 188, 32));
+  background-image:linear-gradient( #fffb00, rgb(190, 188, 32));
 }
 
 .divisao_mid_down {
@@ -88,6 +94,17 @@ h6{
   transform: rotate(-90deg);
 }
 
+.triangle:hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 110px solid yellow;
+  border-left: 110px solid transparent;
+  transform: rotate(-90deg);
+}
+
 .triangle iframe {
   position: absolute;
   top: 50px;
@@ -98,8 +115,8 @@ h6{
 
 .triangle-text {
   position: relative;
-  top: -125px;
-  left: -43px;
+  top: -110px;
+  left: -65px;
   transform: rotate(45deg);
   color: black;
   font-style: italic;
