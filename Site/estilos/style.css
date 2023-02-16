@@ -3,7 +3,6 @@
 *{
   margin: 0px;
   padding: 0px;
-  outline: 0px;
 }
 
 body {
@@ -31,6 +30,7 @@ a {
 a:hover {
   color: rgb(177, 160, 12);
   text-shadow: 2px 2px 5px rgb(255, 255, 255);
+  
 }
 
 #botao_acessar {
