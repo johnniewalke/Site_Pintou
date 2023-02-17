@@ -3,7 +3,11 @@ header{
 }
 
 body{
-
+    border: solid black;
+    border-radius: 15%;
+    height: 1000;
+    width: 800;
+    background-color: rgb(32, 144, 219);
 }
 
 main{
@@ -23,5 +27,5 @@ p{
 }
 
 a{
-    
+
 }
