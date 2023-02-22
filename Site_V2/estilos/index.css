@@ -37,8 +37,8 @@ section#meioTela{
   left: 50%;
   transform: translate(-50%, -50%);
 
-  height: 800px;
-  width: 500px;
+  height: 100vh;
+  width: 100vw;
   background-color: rgba(173, 216, 230, 0.658);
 
   margin: 10px;
