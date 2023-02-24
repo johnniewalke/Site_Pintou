@@ -44,7 +44,7 @@ section#meioTela{
   height: 100vh;
   background-color: #87cefad7;
   text-align: center;
-  width: 768px;
+  width: 100%;
 }
 
 h1{
@@ -78,7 +78,6 @@ nav {
   font-weight: bold;
 
 }
-  
 
 footer{
   text-align: center;
