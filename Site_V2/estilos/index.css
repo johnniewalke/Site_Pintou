@@ -50,34 +50,34 @@ section#meioTela{
 }
 
 nav {
-    background-color: #ffffffd0;
-    max-width: 436px;
-  }
+  background-color: #ffffffd0;
+  max-width: 436px;
+}
   
   
-  .menu-item:hover a {
-    color: #c4a600;
-    transition: color 0.1s ease-in-out 0.1s;
-    border: 2px solid rgba(0, 0, 0, 0.705);
-    font-size: larger;
-  }
+.menu-item:hover a {
+  color: #c4a600;
+  transition: color 0.1s ease-in-out 0.1s;
+  border: 2px solid rgba(0, 0, 0, 0.705);
+  font-size: larger;
+}
   
-  .menu-item a {
-    text-decoration: none;
-  }
+.menu-item a {
+  text-decoration: none;
+}
   
-  .menu-item {
-    display: inline-block;
-    padding: 10px;
-    font-weight: bold;
-    color: #333;
-    font-size: large;
-  }
+.menu-item {
+  display: inline-block;
+  padding: 10px;
+  font-weight: bold;
+  color: #333;
+  font-size: large;
+}
   
 
 footer{
-    text-align: center;
-    font-size: small;
-    background-color: lightgray;
+  text-align: center;
+  font-size: small;
+  background-color: lightgray;
 }
 
