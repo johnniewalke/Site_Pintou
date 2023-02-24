@@ -6,6 +6,11 @@
   font-family: bold, 'Arial Narrow Bold', sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
 header{
 
 }
@@ -14,7 +19,7 @@ html, body{
   height: 100vh;
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.055);
-
+  
   
 }
 
@@ -31,30 +36,25 @@ main{
 
 }
 
-
-
-::-webkit-scrollbar {
-  width: 0px;
-  height: 0px;
-}
-
 section#meioTela{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
   height: 100vh;
-  width: 100vw;
   background-color: #87cefad7;
+  text-align: center;
+  width: 768px;
+}
 
-  margin: 10px;
-  padding: 10px;
+h1{
+  text-align: center;
 }
 
 nav {
   background-color: #ffffffd0;
   max-width: 436px;
+  text-align: center;
 }
   
   
@@ -63,11 +63,13 @@ nav {
   transition: color 0.1s ease-in-out 0.1s;
   border: 2px solid rgba(0, 0, 0, 0.705);
   font-size: larger;
+  cursor: pointer;
 }
   
 .menu-item a {
   text-decoration: none;
   color: #333;
+  
 }
   
 .menu-item {
