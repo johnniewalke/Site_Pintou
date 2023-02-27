@@ -3,6 +3,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
   font-family: bold, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -30,11 +31,12 @@ body{
 main{
   position: relative;
   height: 100vh;
-  background-color: rgba(0, 128, 0, 0.116);
+  background-color: rgba(0, 128, 117, 0.116);
 
 }
 
-section#meioTela{
+
+section#meioTela {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -43,7 +45,7 @@ section#meioTela{
   background-color: #87cefad7; /* cor sobreposta ao fundo-tela */
   text-align: center;
   width: 100%;
-}
+} 
 
 .fundo-tela {
   height: 100vh;
