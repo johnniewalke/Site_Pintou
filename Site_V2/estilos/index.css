@@ -1,8 +1,6 @@
 @charset "UTF-8"
 
 * {
-  margin: 0px;
-  padding: 0px;
   box-sizing: border-box;
   font-family: bold, 'Arial Narrow Bold', sans-serif;
 }
@@ -16,16 +14,11 @@ header{
 
 }
 
-html, body{
-  height: 100vh;
-  width: 100vw;
-  background-color: rgba(0, 0, 0, 0.055); 
-}
-
 body{
   background-size: cover;
   background-attachment: fixed;
-
+  margin: 0;
+  padding: 0;
 }
 
 main{
@@ -34,18 +27,6 @@ main{
   background-color: rgba(0, 128, 117, 0.116);
 
 }
-
-
-section#meioTela {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 100vh;
-  background-color: #87cefad7; /* cor sobreposta ao fundo-tela */
-  text-align: center;
-  width: 100%;
-} 
 
 .fundo-tela {
   height: 100vh;
@@ -61,6 +42,10 @@ h1, p, legend {
 }
 p {
   font-size: 18px;
+}
+
+h1 {
+  margin: 0px;
 }
 
 nav {
