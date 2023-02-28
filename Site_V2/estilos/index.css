@@ -97,3 +97,11 @@ footer{
   border-radius: 10px;
   
 }
+
+.telaLogin {
+  height: 300px;
+  width: 350px;
+  position: center;
+  background-position: center;
+  background-attachment: fixed;
+}
