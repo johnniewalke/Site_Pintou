@@ -28,12 +28,16 @@ main{
 
 }
 
+
+
 .fundo-tela {
   height: 100vh;
   width: 100vw;
   background-image: url(../img/fundo_vagas_trabalho.jpg);
   background-position: center;
   background-attachment: fixed;
+  display: flex;
+  justify-content: center;
 }
 
 h1, p, legend {
@@ -54,7 +58,7 @@ nav {
   max-width: 436px;
   text-align: center;
   border-radius: 10px;
-  position: center;
+  margin: 20px;
 }
   
 .menu-item:hover a {
@@ -75,7 +79,6 @@ nav {
   display: inline-block;
   padding: 10px;
   font-weight: bold;
-
 }
 
 footer{
@@ -84,21 +87,16 @@ footer{
   background-color: lightgray;
 }
 
-.senha>span>img {
+.login>span>img, .senha>span>img {
   background-color: white;
   background-size: contain;
   border-radius: 10px;
-  
-}
-
-.login>span>img {
-  background-color: white;
-  background-size: contain;
-  border-radius: 10px;
-  
-}
+  }
 
 .telaLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 300px;
   width: 435px;
 
@@ -108,3 +106,4 @@ fieldset {
   background-color: rgba(255, 255, 255, 0.192);
   border-radius: 10px;
 }
+
