@@ -100,8 +100,11 @@ footer{
 
 .telaLogin {
   height: 300px;
-  width: 350px;
-  position: center;
-  background-position: center;
-  background-attachment: fixed;
+  width: 435px;
+
+}
+
+fieldset {
+  background-color: rgba(255, 255, 255, 0.192);
+  border-radius: 10px;
 }
