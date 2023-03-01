@@ -17,7 +17,10 @@ header{
 body{
   margin: 0px;
   padding: 0px;
-  background-image: url(../img/fundo_vagas_trabalho.jpg);
+  /*background-image: url(../img/fundo_vagas_trabalho.jpg), rgba(0, 128, 117, 0.116);*/
+  
+  background-image: linear-gradient(to bottom, rgba(0, 128, 117, 0.116), rgba(0, 128, 117, 0.116)), url(../img/fundo_vagas_trabalho.jpg);
+
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -28,7 +31,7 @@ main{
   position: relative;
   height: 100vh;
   width: 100vw;
-  background-color: rgba(0, 128, 117, 0.116);
+
 
 }
 
