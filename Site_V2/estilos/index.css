@@ -15,11 +15,13 @@ header{
 }
 
 body{
-  background-size: cover;
-  background-attachment: fixed;
   margin: 0px;
   padding: 0px;
-
+  background-image: url(../img/fundo_vagas_trabalho.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  
 }
 
 main{
@@ -33,7 +35,7 @@ main{
 .fundo-tela {
   height: 100vh;
   width: 100vw;
-  background-image: url(../img/fundo_vagas_trabalho.jpg);
+  
   background-position: center;
   background-attachment: fixed;
   display: flex;
@@ -104,6 +106,13 @@ footer{
   border-radius: 10px;
   }
 
+.login>label, .senha>label  
+
+.login, .senha {
+  width: 300px;
+  padding: 5px 5px;
+}  
+
 .telaLogin {
   display: flex;
   justify-content: center;
@@ -118,8 +127,13 @@ fieldset {
   background-color: rgba(255, 255, 255, 0.192);
   border-radius: 10px;
   margin: 0px 15px 0px 15px;
-  padding: 0px 20px;
+  padding: 0px 5px;
 
   position: absolute
 }
 
+.tela-cadastro {
+  margin: 5px auto;
+  display: flex;
+  justify-content: center;
+}
