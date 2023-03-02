@@ -17,41 +17,33 @@ header{
 body{
   margin: 0px;
   padding: 0px;
-  /*background-image: url(../img/fundo_vagas_trabalho.jpg), rgba(0, 128, 117, 0.116);*/
-  
   background-image: linear-gradient(to bottom, rgba(0, 128, 117, 0.116), rgba(0, 128, 117, 0.116)), url(../img/fundo_vagas_trabalho.jpg);
-
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  
 }
 
 main{
   position: relative;
   height: 100vh;
   width: 100vw;
-
-
 }
 
 .fundo-tela {
   height: 100vh;
   width: 100vw;
-  
   background-position: center;
   background-attachment: fixed;
   display: flex;
   justify-content: center;
 }
 
-
-
 h1, p, legend {
   text-align: center;
   color: whitesmoke;
   text-shadow: 0px 0px 10px #000000;
 }
+
 p {
   font-size: 18px;
 }
@@ -61,7 +53,6 @@ h1 {
   padding: 10px;
 }
 
-
 nav {
   background-color: #ffffffd0;
   max-width: 436px;
@@ -69,22 +60,21 @@ nav {
   margin: 5px auto;
   display: flex;
   justify-content: center;
+  align-items: flex-end;
 }
-
-
 
 .menu-item:hover a {
   color: #c4a600;
   transition: color 0.1s ease-in-out 0.1s;
   border: 2px solid rgba(0, 0, 0, 0.705);
-  font-size: larger; /*tornar absoluto*/
-  cursor: pointer;
+  font-size: 20px;
+  cursor: pointer;  
+
 }
   
 .menu-item a {
   text-decoration: none;
   color: #333;
-
 }
   
 .menu-item {
@@ -109,8 +99,6 @@ footer{
   border-radius: 10px;
   }
 
-.login>label, .senha>label  
-
 .login, .senha {
   width: 300px;
   padding: 5px 5px;
@@ -120,7 +108,7 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 100px auto;
+  margin: 220px auto 10px auto;
   display: flex;
   justify-content: center;
 
