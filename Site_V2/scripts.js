@@ -1,1 +1,6 @@
-console.log("Oi Mundo")
+let weight;
+
+console.log(typeof weight)
+
+
+
