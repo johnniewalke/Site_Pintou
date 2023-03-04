@@ -69,7 +69,6 @@ nav {
   border: 2px solid rgba(0, 0, 0, 0.705);
   font-size: 20px;
   cursor: pointer;  
-
 }
   
 .menu-item a {
@@ -111,7 +110,6 @@ footer{
   margin: 220px auto 10px auto;
   display: flex;
   justify-content: center;
-
 }
 
 fieldset {
@@ -119,7 +117,6 @@ fieldset {
   border-radius: 10px;
   margin: 0px 15px 0px 15px;
   padding: 0px 5px;
-
   position: absolute
 }
 
@@ -127,4 +124,8 @@ fieldset {
   margin: 5px auto;
   display: flex;
   justify-content: center;
+}
+
+input:focus {
+  border-color: rgb(84, 187, 221);
 }
